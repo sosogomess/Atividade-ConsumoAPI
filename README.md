@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Atividade: Desenvolvimento de Interface com Consumo de API
 
-## Getting Started
+Este é um projeto front-end desenvolvido como parte de uma atividade para consumo de APIs.
 
-First, run the development server:
+## Funcionalidades Implementadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Consumo de APIs**: Realiza requisições a APIs externas para exibir dados dinâmicos.
+- **Componentização**: Uso de componentes reutilizáveis para maior organização e manutenção do código.
+- **Design Responsivo**: Interface adaptada para diferentes tamanhos de tela.
+
+
+## Estrutura do Projeto
+
+A estrutura principal do projeto é a seguinte:
+
+### 1. Criei um arquivo com o nome do projeto, com o seguinte comando:
+
+```
+ npx create-next-app@latest atividade-consumo
+
+```
+No terminal do Vscode 
+
+### 2. Entrei nas pastas após a criação e alterei "layout.js" e "page.js" para:
+
+```
+ layout.jsx
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+ page.jsx
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### As pastas ficam da seguinte forma:
 
-## Learn More
+<img src="./estrutura-projeto.png" alt="Estrutura do Projeto" width="600">
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Organização da Estrutura do Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Criei uma pasta chamada "components" dentro do diretório src
 
-## Deploy on Vercel
+### Código
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A linha import axios from "axios"; é usada para importar a biblioteca Axios em um arquivo JavaScript ou TypeScript.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Para Instalar o "axios" utilizei esse comando:
+
+```
+ npm install axios    
+
+```
+
+### Para Iniciar o seu servidor utilizei:
+
+```
+ npm run dev    
+
+```
+
+### Criei um CSS e um HTML da forma que achei melhor de acordo com as informações disponíveis na atividade
+
+#### Gostaria de clonar esse projeto? Utilize esse comando:
+
+```
+git clone https://github.com/sosogomess/Atividade-ConsumoAPI.git
+
+```
+
+
+
+
