@@ -35,7 +35,7 @@ No terminal do Vscode
 
 ### As pastas ficam da seguinte forma:
 
-<img src="./estrutura-projeto.png" alt="Estrutura do Projeto" width="600">
+<img src="./assets/imagem pastas.png" alt="Estrutura do Projeto" width="600">
 
 
 ### 3. Organização da Estrutura do Projeto
