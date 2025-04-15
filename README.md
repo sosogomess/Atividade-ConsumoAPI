@@ -60,7 +60,7 @@ A linha import axios from "axios"; é usada para importar a biblioteca Axios em 
 
 ```
 
-### Criei um CSS e um HTML da forma que achei melhor de acordo com as informações disponíveis na atividade
+Criei um CSS e um HTML da forma que achei melhor de acordo com as informações disponíveis na atividade.
 
 #### Gostaria de clonar esse projeto? Utilize esse comando:
 
